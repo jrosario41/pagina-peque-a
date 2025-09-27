@@ -8,7 +8,7 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: #440808;
-  color: #0c0202;
+  color: #af9797;
   padding: 20%;
 }
 
@@ -18,8 +18,8 @@ header {
 }
 
 .logo img {
-  width: 150px;
-  height: 150px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   border-radius: 50%; /* Hace la imagen redonda */
   border: 4px solid #f5cdcd;
@@ -57,5 +57,5 @@ header {
 footer {
   margin-top: 40px;
   font-size: 0.9rem;
-  color: #0c0b0b;
+  color: #dfc0c0;
 }
