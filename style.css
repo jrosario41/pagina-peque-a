@@ -1,0 +1,61 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #440808;
+  color: #0c0202;
+  padding: 20%;
+}
+
+/* Estilo del encabezado */
+header {
+  margin-bottom: 30px;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* Hace la imagen redonda */
+  border: 4px solid #f5cdcd;
+  margin-top: 10px;
+}
+
+/* Galería de imágenes */
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 10px;
+  margin: 2%;
+}
+
+.circle img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #b6a4a4;
+  box-shadow: 0 4px 8px rgba(197, 164, 164, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.circle img:hover {
+  transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #0c0b0b;
+}
